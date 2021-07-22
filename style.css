@@ -116,11 +116,11 @@ header nav .depth2 > li > a:hover {
 /* 인디케이터(tab) */
 .indicator {
   position: absolute;
-  width: 60px;
+  width: 90px;
   height: 20px;
   display: flex;
   bottom: 70px;
-  left: 580px;
+  left: 560px;
 }
 
 /* 기본 상태(비선택) */

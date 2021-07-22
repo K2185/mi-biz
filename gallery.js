@@ -24,7 +24,7 @@ $(function(){
   setInterval(function(){
     imgNum = imgNum + 1; // 다음 이미지 번호
     // 마지막 이미지면 처음 이미지로
-    if(imgNum > 1) { imgNum = 0;}
+    if(imgNum > 2) { imgNum = 0;}
     changeGallery(imgNum); 
   }, pauseTime);
 
@@ -43,6 +43,13 @@ $(function(){
     $('.indicator li').removeClass('active');
     $(this).addClass('active');
     return false;
+  })
+  // 인디케이터 버튼3 -> 두번째 배너
+  $('.indicator li').eq(2).click(function(){
+    changeGallery(2);
+    $('.indicator li').removeClass('active');
+    $(this).addClass('active');   
+    return false; 
   })
      
 
