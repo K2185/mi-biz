@@ -1,5 +1,3 @@
-// main .js
-
 $(function(){
 
   $('header nav > ul > li').hover(
