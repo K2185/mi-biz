@@ -224,6 +224,10 @@ footer {
   color: #fff;
 }
 
+.footerMenu, .address, .copy {
+  margin-left: 70px;
+}
+
 footer .footerMenu span,  
 footer .address span {
   margin-left: 10px;
@@ -245,4 +249,9 @@ footer .address {
 
 .subimg {
   width: 380px;
+}
+
+.nbc {
+  position: absolute;
+  margin-top: 26px;
 }
