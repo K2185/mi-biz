@@ -99,11 +99,11 @@ header nav .depth2 > li > a:hover {
 
 .indicator {
   position: absolute;
-  width: 90px;
-  height: 20px;
+  width: 75px;
+  height: 15px;
   display: flex;
-  bottom: 70px;
-  left: 560px;
+  bottom: 80px;
+  left: 570px;
 }
 
 .indicator > li {
@@ -159,23 +159,11 @@ header nav .depth2 > li > a:hover {
 
 .btn {
   display: block;
-  background: #999;
+  background: #6963ac;
   text-align: center;
   color: #fff;
   padding-top: 1em;
   padding-bottom: 1em;
-}
-
-.btn-green {
-  background: #649550;
-}
-
-.btn-cyon {
-  background: #509591;
-}
-
-.btn-blue {
-  background: #507595;
 }
 
 footer {
@@ -227,4 +215,24 @@ footer .address {
 .nbc {
   position: absolute;
   margin-top: 26px;
+}
+
+nav.sns {
+  margin-left: 1056px;
+  margin-bottom: 20px;
+}
+nav.sns ul {
+  position: absolute;
+  bottom: 26px;
+}
+nav.sns ul li {
+  display: inline-block;
+}
+nav.sns img {
+  width: 40px;
+  margin-left: 5px;
+}
+
+footer > .container {
+  margin-top: 24px;
 }
